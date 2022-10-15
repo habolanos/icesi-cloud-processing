@@ -62,3 +62,12 @@ resource "aws_instance" "servidor-bd" {
     Name = "servidor-bd"
   }
 }
+
+resource "aws_instance" "servidor-firewall" {
+  ami           = "ami-09a41e26df464c548"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "servidor-firewall"
+  }
+}

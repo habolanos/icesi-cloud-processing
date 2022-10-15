@@ -1,4 +1,3 @@
-##Lab created by Diego Armando Gomez - dgomez@vortexbird.com
 ##Step1 Install Boto3
 
 #To verify that Python installed correctly,
