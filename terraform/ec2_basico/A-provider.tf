@@ -1,7 +1,7 @@
 # Configure AWS provider
 provider "aws" {
   region = "us-east-1"
-  profile = "habolanos-aws-devops"
+  profile = "aws-icesi-2023"
   default_tags {
     tags = {
       Environment = "Lab"
