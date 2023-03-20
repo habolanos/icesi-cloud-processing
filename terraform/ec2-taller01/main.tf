@@ -1,9 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
   region  = "us-east-1"
-  profile = "icesi-aws-terraform"
-  
-  
+  profile = "aws-icesi-2023"
 }
 
 resource "aws_default_vpc" "default" {
