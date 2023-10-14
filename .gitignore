@@ -27,6 +27,6 @@ hs_err_pid*
 *.drawio.bkp
 
 #terraform
-.terraform
-.terraform.lock.hcl
-terraform.tfstate*
+**.terraform
+**.terraform.lock.hcl
+**terraform.tfstate*
